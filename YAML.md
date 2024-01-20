@@ -1,4 +1,6 @@
+![Imagen](1.jpl)
 # YAML: Lenguaje de Serialización de Datos
+
 
 **YAML**, conocido como "YAML Ain't Markup Language," es un lenguaje de serialización de datos utilizado para diseñar archivos de configuración. 
 Aunque algunos lo consideran otro lenguaje de marcado, su acrónimo refleja la idea de que se enfoca en datos en lugar de documentos.
@@ -50,9 +52,7 @@ estado: Kansas
 
 **Directivas:** los documentos YAML pueden estar precedidos por directivas en una transmisión. Las directivas comienzan con un signo de porcentaje (%) seguido del nombre y luego los parámetros separados por espacios.
 
-Ejemplo : %YAML 1.2
-  ---
-Contenido del documento
+
 fuente:https://docs.fileformat.com/es/programming/yaml/
 ##Diferencia entre YAML y JSON
 
