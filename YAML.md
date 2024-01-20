@@ -34,14 +34,7 @@ Ejemplo: `{name: John Smith, age: 20}`
 Ejemplo: 
 
 **Documentos múltiples:** Los documentos múltiples están separados por tres guiones (`---`) en una sola secuencia. Los guiones indican el inicio del documento. También se utilizan para separar las directivas del contenido del documento. El final del documento se indica con tres puntos (`...`).  
-Ejemplo:   
-```yaml
----
-Documento 1
----
----
-Documento 2
-...
+
 
 **Tipo:**  Para especificar el tipo de valor se utilizan dobles signos de exclamación (!!).
 Ejemplo: a: !!flotador 123
