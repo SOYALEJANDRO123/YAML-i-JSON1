@@ -1,4 +1,3 @@
-![Imagen](1.jpl)
 # YAML: Lenguaje de Serialización de Datos
 
 
@@ -66,4 +65,6 @@ fuente:https://docs.fileformat.com/es/programming/yaml/
 | Admite objetos de datos como valores | Sí.                                   | No.                                          |
 | Control de versiones            | Sí, pero no es tan sencillo analizar y comprender de un solo vistazo las diferencias entre las versiones. | Sí, y es fácil analizar y comprender de un solo vistazo las diferencias entre las versiones. |
 
-fuente: https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/
+fuente: https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/.
+![Imagen](1.jpg)
+
