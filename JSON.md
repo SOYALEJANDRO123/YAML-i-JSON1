@@ -75,4 +75,6 @@ Los valores pueden ser números, cadenas (entre comillas dobles), true, false, n
 
 **Restricciones y Consideraciones**
 Los ficheros JSON no admiten comentarios.
+
+
 Fuente : https://www.mclibre.org/
