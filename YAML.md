@@ -60,8 +60,10 @@ estado: Kansas
 Ejemplo : %YAML 1.2
   ---
 Contenido del documento
-fuente:https://docs.fileformat.com/es/programming/yaml/
+fuente:https://docs.fileformat.com/es/programming/yaml/.
+
 ## Diferencia entre YAML y JSON
+
 | Característica                  | JSON                                      | YAML                                         |
 |---------------------------------|-------------------------------------------|----------------------------------------------|
 | ¿Qué es?                        | Un formato de serialización de datos para intercambio de datos estructurados. Da prioridad al uso de las aplicaciones antes que al uso humano. | Un formato de serialización de datos para intercambio de datos estructurados. Da prioridad al uso humano antes que al de las aplicaciones. |
@@ -71,4 +73,5 @@ fuente:https://docs.fileformat.com/es/programming/yaml/
 | Admite comentarios              | No.                                       | Sí.                                          |
 | Admite objetos de datos como valores | Sí.                                   | No.                                          |
 | Control de versiones            | Sí, pero no es tan sencillo analizar y comprender de un solo vistazo las diferencias entre las versiones. | Sí, y es fácil analizar y comprender de un solo vistazo las diferencias entre las versiones. |
+
 fuente: https://aws.amazon.com/es/compare/the-difference-between-yaml-and-json/
