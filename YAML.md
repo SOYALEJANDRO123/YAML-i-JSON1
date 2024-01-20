@@ -20,18 +20,26 @@ Kubernetes usa archivos YAML para definir objetos y estados en un clúster, perm
 
 **Red Hat OpenShift**, el Kubernetes empresarial, proporciona una plataforma sólida para desarrolladores, facilitando la creación, alojamiento e implementación de aplicaciones en la nube.
 fuente: https://www.redhat.com/es/topics/automation/what-is-yaml.
+
 ## Sintaxis básica de YAML
-Cada YAML comienza con --- que denota el inicio de un archivo YAML.
-**Espacios en blanco:** la sangría de espacio en blanco se utiliza para indicar el anidamiento y la estructura general.
-**Matriz asociativa:** una matriz asociativa está rodeada por corchetes ({…}). Las claves y los valores están separados por dos puntos (:) y cada par está separado por una coma (,).
-Ejemplo;   {name: John Smith, age: 20}
-**Cadenas:** la cadena se puede escribir con o sin comillas dobles (") o comillas simples (’).
-Ejemplo: Cadena de muestra
-"Cadena de muestra"
-'Cadena de muestra'
-**Documentos múltiples:** los documentos múltiples están separados por tres guiones (—) en una sola secuencia. Los guiones indican el inicio del documento. Los guiones también se utilizan para separar las directivas del contenido del documento. El final del documento se indica con tres puntos (…).
-Ejemplo:   ---
+
+Cada YAML comienza con `---` que denota el inicio de un archivo YAML.
+
+**Espacios en blanco:** La sangría de espacio en blanco se utiliza para indicar el anidamiento y la estructura general.
+
+**Matriz asociativa:** Una matriz asociativa está rodeada por corchetes (`{...}`). Las claves y los valores están separados por dos puntos (`:`) y cada par está separado por una coma (`,`).  
+Ejemplo: `{name: John Smith, age: 20}`
+
+**Cadenas:** La cadena se puede escribir con o sin comillas dobles (`"`) o comillas simples (`'`).  
+Ejemplo: 
+
+**Documentos múltiples:** Los documentos múltiples están separados por tres guiones (`---`) en una sola secuencia. Los guiones indican el inicio del documento. También se utilizan para separar las directivas del contenido del documento. El final del documento se indica con tres puntos (`...`).  
+Ejemplo:   
+```yaml
+---
 Documento 1
+---
+
   ---
 Documento 2
 ...
